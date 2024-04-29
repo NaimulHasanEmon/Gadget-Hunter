@@ -8,41 +8,41 @@
     <title>Input Data</title>
 </head>
 <body>
-    <div class="flex flex-col items-center justify-center h-screen">
-        <!-- <div class="flex flex-col items-center gap-6">
-            <p>Name:<input type="text" placeholder="Full Name" class="input input-bordered w-full max-w-xs" required /></p>
-            <p>Mobile:<input type="text" placeholder="Mobile Number" class="input input-bordered w-full max-w-xs" required /></p>
-            <p>Address:<input type="text" placeholder="Address" class="input input-bordered w-full max-w-xs" required /></p>
-            <p>Post Code:<input type="text" placeholder="Post Code" class="input input-bordered w-full max-w-xs" required /></p>
-            <button class="btn btn-accent">Place</button>
-        </div> -->
-        <label class="form-control w-full max-w-xs">
-            <div class="label">
-                <span class="label-text">Name:</span>
+    <div class="grid flex-grow bg-base-300 box place-items-center">
+        <p class="text-4xl pt-5">User Information</p>
+        <div class="hero min-h-screen">
+            <div class="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                <div class="flex flex-col ml-5">
+                    <label class="form-control w-full max-w-xs">
+                        <div class="label">
+                            <span class="label-text">Name:</span>
+                        </div>
+                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                        <div class="label">
+                        </div>
+                        <div class="label">
+                            <span class="label-text">Mobile:</span>
+                        </div>
+                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                        <div class="label">
+                        </div>
+                        <div class="label">
+                            <span class="label-text">Address:</span>
+                        </div>
+                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                        <div class="label">
+                        </div>
+                        <div class="label">
+                            <span class="label-text">Post Code:</span>
+                        </div>
+                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                        <div class="label">
+                        </div>
+                    </label>
+                    <button onclick="handleSuccess()" class="btn btn-accent text-lg mb-4 mr-4">Place Order</button>
+                </div>
             </div>
-            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-            <div class="label">
-            </div>
-            <div class="label">
-                <span class="label-text">Mobile:</span>
-            </div>
-            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-            <div class="label">
-            </div>
-            <div class="label">
-                <span class="label-text">Address:</span>
-            </div>
-            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-            <div class="label">
-            </div>
-            <div class="label">
-                <span class="label-text">Post Code:</span>
-            </div>
-            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-            <div class="label">
-            </div>
-        </label>
-        <button onclick="handleSuccess()" class="btn btn-accent text-lg">Place Order</button>
+        </div>
     </div>
 
     <!-- Js -->
