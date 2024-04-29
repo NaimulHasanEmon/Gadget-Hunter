@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Phone Hunter</title>
+    <style>
+        .text-gradient {
+            background-image: linear-gradient(to right, #6366f1, #9f7aea, #ed64a6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="bg-slate-400 h-40">
+        <div class="navbar">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-black" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Homepage</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-5xl text-center">
+                    <span class="text-gradient">StarByt</span>
+                </h2>
+            </div>
+            <div class="navbar-end">
+                <button class="btn btn-ghost btn-circle">
+                    <div class="indicator">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-black" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                        </svg>
+                        <span class="badge badge-xs badge-success indicator-item"></span>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div>
+            <section>
+                <!-- Search -->
+                <section class="p-2 text-center">
+                    <input id="search-field" type="text" placeholder="Search your phone"
+                        class="input input-bordered w-full max-w-xs" />
+                    <button class="btn btn-accent" onclick="handleSearch()" title="Search">Search</button>
+                </section>
+            </section>
+        </div>
+    </header>
+    <main class="container mx-auto mt-8">
+        <!-- Phone Container -->
+        <section>
+            <!-- Spinner -->
+            <div id="loading-spinner" class="hidden text-center my-40">
+                <span class="loading loading-spinner text-accent loading-md"></span>
+            </div>
+        
+            <div id="phone-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            </div>
+        
+            <!-- Show all button -->
+            <div id="show-all-container" class="hidden mx-auto mt-8 text-center">
+                <button onclick="handleShowAll()" class="btn btn-accent">Show All</button>
+            </div>
+        </section>
+        <!-- Show Details Modal -->
+        <!-- Open the modal using ID.showModal() method -->
+        <dialog id="show_details_modal" class="modal modal-bottom sm:modal-middle">
+            <div class="modal-box">
+                <h3 id="show-details-phone-name" class="font-bold text-lg"></h3>
+                <div id="show-details-container"></div>
+                <div class="modal-action">
+                    <form method="dialog">
+                        <!-- A button to Order -->
+                        <button onclick="handleLogIn()" class="btn btn-accent">Order</button>
+                        <!-- if there is a button in form, it will close the modal -->
+                        <button class="btn btn-error">Close</button>
+                    </form>
+                </div>
+            </div>
+        </dialog>
+    </main>
+    <footer>
+
+    </footer>
+    <!-- Script -->
+    <script src="Js/phone.js"></script>
+    <script src="Js/setonclick.js"></script>
+</body>
+</html>
