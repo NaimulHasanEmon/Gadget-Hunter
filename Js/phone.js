@@ -30,13 +30,13 @@ const displayPhones = (phones,isShowAll) => {
         phoneCard.innerHTML = `
             <figure class="px-10 pt-10 bg-[rgba(13, 110, 253, 0.05)]">
                 <img src="${phones.image}" alt="Phones"
-                    class="rounded-xl" />
+                    class="rounded-xl hover:scale-105 duration-100" />
             </figure>
             <div class="card-body items-center text-center">
                 <h2 class="card-title">${phones.phone_name}</h2>
                 <p>There are many variations of passages of available, but the majority have suffered</p>
                 <div class="card-actions">
-                    <button onclick = 'handleShowDetails("${phones.slug}"); show_details_modal.showModal()' class="btn btn-primary">Show Details</button>
+                    <button onclick = 'handleShowDetails("${phones.slug}"); show_details_modal.showModal()' class="btn btn-primary hover:scale-110 duration-350">Show Details</button>
                 </div>
             </div>
         `;
