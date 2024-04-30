@@ -34,7 +34,7 @@ const displayPhones = (phones,isShowAll) => {
             </figure>
             <div class="card-body items-center text-center">
                 <h2 class="card-title text-black">${phones.phone_name}</h2>
-                <p class="text-slate-600 text-2xl">Price: 55,000 Taka</p>
+                <p class="text-slate-600 text-2xl font-bold">Price: 55,000 Taka</p>
                 <p class="text-slate-600">There are many variations of passages of available, but the majority have suffered</p>
                 <div class="card-actions">
                     <button onclick = 'handleShowDetails("${phones.slug}"); show_details_modal.showModal()' class="btn btn-primary text-xl hover:scale-110 duration-350">Show Details</button>
