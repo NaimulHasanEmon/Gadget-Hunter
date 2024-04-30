@@ -13,3 +13,9 @@ function handleSuccess() {
 function handleHomePage() {
     window.location.href = "index.html";
 }
+
+
+function showAlertAndHandleSuccess() {
+    alert("Your purchase has been confirmed!");
+    handleSuccess();
+}

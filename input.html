@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="sticky top-0 z-50 bg-base-300 pb-6 text-center">
-            <p class="text-4xl pt-5">User Information</p>
+        <p class="text-4xl pt-5">User Information</p>
     </div>
     <div class="grid flex-grow bg-base-300 box place-items-center">
         <div class="hero min-h-screen">
@@ -42,7 +42,10 @@
                         <div class="label">
                         </div>
                     </label>
-                    <button onclick="handleSuccess()" class="btn btn-accent text-lg mb-4 mr-4">Place Order</button>
+                    <div class="flex gap-2">
+                        <button onclick="showAlertAndHandleSuccess()" class="btn btn-accent text-lg mb-4 mr-4">Place
+                            Order</button>
+                    </div>
                 </div>
             </div>
         </div>
