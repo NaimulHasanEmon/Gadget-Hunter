@@ -36,7 +36,7 @@ const displayPhones = (phones,isShowAll) => {
                 <h2 class="card-title">${phones.phone_name}</h2>
                 <p>There are many variations of passages of available, but the majority have suffered</p>
                 <div class="card-actions">
-                    <button onclick = 'handleShowDetails("${phones.slug}"); show_details_modal.showModal()' class="btn btn-primary hover:scale-110 duration-350">Show Details</button>
+                    <button onclick = 'handleShowDetails("${phones.slug}"); show_details_modal.showModal()' class="btn btn-primary text-xl hover:scale-110 duration-350">Show Details</button>
                 </div>
             </div>
         `;
