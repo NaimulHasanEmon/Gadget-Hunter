@@ -16,6 +16,6 @@ function handleHomePage() {
 
 
 function showAlertAndHandleSuccess() {
-    alert("Your purchase has been confirmed!");
+    alert("Your order has been placed successfully!");
     handleSuccess();
 }
