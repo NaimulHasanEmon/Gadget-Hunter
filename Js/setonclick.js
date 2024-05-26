@@ -14,7 +14,6 @@ function handleHomePage() {
     window.location.href = "index.html";
 }
 
-
 function showAlertAndHandleSuccess() {
     alert("Your order has been placed successfully!");
     handleSuccess();
