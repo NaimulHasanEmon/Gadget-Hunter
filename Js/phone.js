@@ -21,7 +21,7 @@ const displayPhones = (phones,isShowAll) => {
 
     // Display only first 5
     if (!isShowAll) {
-        phones = phones.slice(0, 5);
+        phones = phones.slice(0, 6);
     }
     phones.forEach(phones => {
         // 1. Create a div
