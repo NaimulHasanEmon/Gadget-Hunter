@@ -24,10 +24,10 @@ Gadget Hunter is a web application designed to help users find and compare the b
 To run this project locally, follow these steps:
 
 1. **Clone the repository:**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/NaimulHasanEmon/Gadget-Hunter.git
    cd Gadget-Hunter
-   \`\`\`
+   ```
 
 2. **Install dependencies:**
    \`\`\`bash
