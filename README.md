@@ -1,4 +1,3 @@
-
 # Gadget Hunter
 
 Gadget Hunter is a web application designed to help users find and compare the best gadgets available in the market. The application provides detailed information, reviews, and price comparisons for a wide range of gadgets.
@@ -78,10 +77,6 @@ We welcome contributions to improve Gadget Hunter! If you have any suggestions, 
 
 5. **Create a pull request:** Describe your changes and submit the pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
-For any inquiries or issues, please contact Naimul Hasan Emon at [your-email@example.com](mailto:your-email@example.com).
+For any inquiries or issues, please contact Naimul Hasan Emon at [naimulhasan.cse@gmail.com](mailto:naimulhasan.cse@gmail.com).
