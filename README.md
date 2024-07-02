@@ -30,19 +30,19 @@ To run this project locally, follow these steps:
    ```
 
 2. **Install dependencies:**
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. **Start the development server:**
-   \`\`\`bash
+   ```bash
    npm start
-   \`\`\`
+   ```
 
 4. **Open your browser and visit:**
-   \`\`\`
+   ```
    http://localhost:3000
-   \`\`\`
+   ```
 
 ## Usage
 
@@ -56,24 +56,24 @@ To run this project locally, follow these steps:
 We welcome contributions to improve Gadget Hunter! If you have any suggestions, bug reports, or pull requests, please follow these steps:
 
 1. **Fork the repository:**
-   \`\`\`bash
+   ```bash
    git fork https://github.com/NaimulHasanEmon/Gadget-Hunter.git
-   \`\`\`
+   ```
 
 2. **Create a new branch:**
-   \`\`\`bash
+   ```bash
    git checkout -b feature/YourFeatureName
-   \`\`\`
+   ```
 
 3. **Make your changes and commit them:**
-   \`\`\`bash
+   ```bash
    git commit -m "Add new feature"
-   \`\`\`
+   ```
 
 4. **Push to your forked repository:**
-   \`\`\`bash
+   ```bash
    git push origin feature/YourFeatureName
-   \`\`\`
+   ```
 
 5. **Create a pull request:** Describe your changes and submit the pull request.
 
