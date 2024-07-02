@@ -81,6 +81,9 @@ We welcome contributions to improve Gadget Hunter! If you have any suggestions, 
 
 5. **Create a pull request:** Describe your changes and submit the pull request.
 
+## 🚀 About Me
+I'm a MERN stack developer and an undergraduate student of CSE. Besides I am working on Machine Learning (ML), Computer Vision and problem solving to enrich my coding skills.
+
 ## Contact
 
 For any inquiries or issues, please contact Naimul Hasan Emon at [naimulhasan.cse@gmail.com](mailto:naimulhasan.cse@gmail.com).
