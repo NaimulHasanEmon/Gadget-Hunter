@@ -2,6 +2,10 @@
 
 Gadget Hunter is a web application designed to help users find and compare the best gadgets available in the market. The application provides detailed information, reviews, and price comparisons for a wide range of gadgets.
 
+## Demo
+
+https://naimulhasanemon.github.io/Gadget-Hunter/
+
 ## Table of Contents
 
 - [Features](#features)
