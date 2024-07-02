@@ -3,9 +3,6 @@
 Gadget Hunter is a web application designed to help users find and compare the best gadgets available in the market. The application provides detailed information, reviews, and price comparisons for a wide range of gadgets.
 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OpenCV_Logo_with_text_svg_version.svg/800px-OpenCV_Logo_with_text_svg_version.svg.png" alt="Logo" width="200" height="250">
-
-
 ## Demo
 
 https://naimulhasanemon.github.io/Gadget-Hunter/
