@@ -1,13 +1,13 @@
-# Gadget Hunter
+# 🤳 Gadget Hunter
 
 Gadget Hunter is a web application designed to help users find and compare the best gadgets available in the market. The application provides detailed information, reviews, and price comparisons for a wide range of gadgets.
 
 
-## Demo
+## 🌐 Demo
 
 https://naimulhasanemon.github.io/Gadget-Hunter/
 
-## Table of Contents
+## 🗂️ Table of Contents
 
 - [Features](#features)
 - [Installation](#installation)
@@ -16,7 +16,7 @@ https://naimulhasanemon.github.io/Gadget-Hunter/
 - [License](#license)
 - [Contact](#contact)
 
-## Features
+## 👀 Features
 
 - **Comprehensive Database:** Access a wide range of gadgets with detailed information and reviews.
 - **Price Comparison:** Compare prices from various retailers to find the best deals.
@@ -24,7 +24,7 @@ https://naimulhasanemon.github.io/Gadget-Hunter/
 - **Search Functionality:** Easily search for specific gadgets using keywords.
 - **Responsive Design:** Optimized for both desktop and mobile devices.
 
-## Installation
+## ⬇️ Installation
 
 To run this project locally, follow these steps:
 
@@ -49,14 +49,14 @@ To run this project locally, follow these steps:
    http://localhost:3000
    ```
 
-## Usage
+## 🧐 Usage
 
 1. **Home Page:** Browse through the featured gadgets and latest reviews.
 2. **Search:** Use the search bar to find specific gadgets.
 3. **Gadget Details:** Click on a gadget to view detailed information, reviews, and price comparisons.
 4. **User Reviews:** Read and submit reviews for gadgets.
 
-## Contributing
+## 🙌 Contributing
 
 We welcome contributions to improve Gadget Hunter! If you have any suggestions, bug reports, or pull requests, please follow these steps:
 
@@ -85,6 +85,6 @@ We welcome contributions to improve Gadget Hunter! If you have any suggestions, 
 ## 🚀 About Me
 I'm a MERN stack developer and an undergraduate student of CSE. Besides I am working on Machine Learning (ML), Computer Vision and problem solving to enrich my coding skills.
 
-## Contact
+## 🔗 Contact
 
 For any inquiries or issues, please contact Naimul Hasan Emon at [naimulhasan.cse@gmail.com](mailto:naimulhasan.cse@gmail.com).
