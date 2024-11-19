@@ -5,7 +5,7 @@ Gadget Hunter is a web application designed to help users find and compare the b
 
 ## 🌐 Demo
 
-https://naimulhasanemon.github.io/Gadget-Hunter/
+https://gadgethunter1.netlify.app/
 
 ## 🗂️ Table of Contents
 
